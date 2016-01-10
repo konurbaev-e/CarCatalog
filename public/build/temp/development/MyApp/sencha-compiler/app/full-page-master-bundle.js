@@ -1,2 +1,2 @@
 // @tag full-page
-// @require D:\ExtJS\MyApp\public\app.js
+// @require D:\IDEAProjects\CarCatalog\public\app.js

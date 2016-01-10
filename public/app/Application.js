@@ -10,7 +10,6 @@ Ext.define('MyApp.Application', {
 
     stores: [
         // TODO: add global / shared stores here
-        'Users',
         'CarCatalogStore'
     ],
     

@@ -1,5 +1,5 @@
 $app-name:  dynamic( 'MyApp' );
-$image-search-path: 'D:/ExtJS/MyApp/public/build/development/MyApp/classic/resources';
+$image-search-path: 'D:/IDEAProjects/CarCatalog/public/build/development/MyApp/classic/resources';
 $theme-name:  dynamic( 'theme-neptune' );
 $include-ext-abstractcomponent: dynamic(true);;
 $include-ext-abstractcontainer: dynamic(true);;
@@ -866,19 +866,12 @@ $include-myapp-application: dynamic(true);;
 $include-myapp-model-carcatalogmodel: dynamic(true);;
 $include-myapp-model-user: dynamic(true);;
 $include-myapp-store-carcatalogstore: dynamic(true);;
-$include-myapp-store-personnel: dynamic(true);;
-$include-myapp-store-users: dynamic(true);;
 $include-myapp-view-main-addcarformview: dynamic(true);;
 $include-myapp-view-main-carcatalogcontroller: dynamic(true);;
 $include-myapp-view-main-carcatalogmodel: dynamic(true);;
 $include-myapp-view-main-carcatalogview: dynamic(true);;
 $include-myapp-view-main-cargridview: dynamic(true);;
-$include-myapp-view-main-list: dynamic(true);;
-$include-myapp-view-main-main: dynamic(true);;
-$include-myapp-view-main-maincontroller: dynamic(true);;
-$include-myapp-view-main-mainmodel: dynamic(true);;
 $include-myapp-view-main-searchcarview: dynamic(true);;
-$include-myapp-view-main-userlist: dynamic(true);;
 $output-paths: ("path": "../../classic/resources", "shared": "../../resources");
 
 /* ======================== ETC ======================== */
@@ -1273,11 +1266,3 @@ $current-package: 'font-awesome';
 $current-resource-root: $font-awesome-resource-root;
 $relative-image-path-for-uis: $font-awesome-resource-path;
 @import '../../../../../ext/packages/font-awesome/sass/src/all';
-
-/* including package MyApp */
-$MyApp-resource-root: '' !default;
-$MyApp-resource-path: 'images' !default;
-$current-package: false;
-$current-resource-root: $MyApp-resource-root;
-$relative-image-path-for-uis: $MyApp-resource-path;
-@import '../../../../../classic/sass/src/view/main/Main';
